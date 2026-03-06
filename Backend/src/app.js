@@ -9,7 +9,7 @@ app.use(cookieParser())
 app.use(cors({
      origin: [
         "http://localhost:5173",
-        "https://ai-mock-interview-platform-ivory.vercel.app"
+        "https://ai-mock-interview-pla-git-f02aeb-abdurrahmans-projects-67825f61.vercel.app"
     ],
     credentials: true
 }))
