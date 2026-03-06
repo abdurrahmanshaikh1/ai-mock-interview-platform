@@ -7,10 +7,7 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-     origin: [
-        "http://localhost:5173",
-        "https://ai-mock-interview-pla-git-f02aeb-abdurrahmans-projects-67825f61.vercel.app"
-    ],
+     origin: true,
     credentials: true
 }))
 
